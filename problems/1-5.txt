@@ -1,0 +1,3 @@
+If using applicative-order evaluation, the operands will be evaluated first and so since calling p will call p again, it will be infinitely recursively
+
+If using normal-order evaluation, the expression will return zero since (= x 0) is true, and (p) is never called since it wasn't needed
